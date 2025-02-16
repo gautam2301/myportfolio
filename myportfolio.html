@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about me</title>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 25px;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: rgb(211, 211, 211);
+        font-family: "Roboto Mono", serif;
+      }
+
+      nav ul li:first-child {
+        color: rgb(54, 255, 54);
+      }
+
+      header {
+        background-color: #475767;
+        width: 100vw;
+      }
+
+      nav ul {
+        position: relative;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li ion-icon {
+        position: absolute;
+        top: 8px;
+        left: 18px;
+      }
+
+      nav ul li:first-child {
+        font-size: 35px;
+        position: relative;
+        top: -15px;
+        left: -150px;
+      }
+
+      .about {
+        font-family: "Anton", serif;
+        font-size: 80px;
+
+        position: absolute;
+
+        text-transform: uppercase;
+        position: relative;
+        height: 140vh;
+        width: 100vw;
+        background-color: #79828b;
+      }
+      .about p:nth-child(4) {
+        font-size: 22px;
+        font-family: "Roboto Mono", serif;
+      }
+
+      .about p {
+        padding: 2px;
+        color: rgb(211, 211, 211);
+        position: relative;
+        top: 20px;
+        left: 110px;
+      }
+
+      .highlight {
+        color: rgb(54, 255, 54);
+      }
+
+      li {
+        list-style: none;
+      }
+
+      img {
+        width: 100vw;
+      }
+
+      .paragraph {
+        position: absolute;
+        width: 60vw;
+        height: 100vh;
+        border-radius: 15px;
+        top: 700px;
+        left: 260px;
+        background-color: #475767;
+      }
+
+      .paragraph ul {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 60px;
+        align-items: center;
+        color: rgb(54, 255, 54);
+        font-size: 35px;
+        font-family: "Roboto Mono", serif;
+      }
+
+      .paragraph p {
+        font-family: "Roboto Mono", serif;
+        text-transform: uppercase;
+        position: relative;
+        color: rgb(211, 211, 211);
+        top: 150px;
+        width: 45vw;
+        left: 160px;
+      }
+
+      ion-icon {
+        color: rgb(54, 255, 54);
+        top: 3px;
+
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            G<ion-icon name="chevron-forward-sharp" size="large"></ion-icon>
+          </li>
+          <li>home</li>
+          <li>experience</li>
+          <li>portfolio</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="about">
+      <p>i <span class="highlight">'</span> m</p>
+      <p>g a u t a m</p>
+      <p>h a z a r i k a <span class="highlight">.</span></p>
+      <p>web developer & student</p>
+    </div>
+
+    <!-- <div class="keyboard"> -->
+    <img
+      src="https://static.wixstatic.com/media/035244_9f46dd7c6e524eef94172c670fff1913~mv2_d_1920_1343_s_2.jpg/v1/fill/w_1406,h_1343,al_c,q_85,enc_avif,quality_auto/035244_9f46dd7c6e524eef94172c670fff1913~mv2_d_1920_1343_s_2.jpg"
+      alt=""
+    />
+    <!-- </div> -->
+
+    <div class="paragraph">
+      <ul>
+        <li>
+          G<ion-icon name="chevron-forward-sharp" size="large"></ion-icon>
+        </li>
+      </ul>
+      <p>
+        I am a second-year BTech student at NIT Silchar, currently exploring the
+        world of web development alongside my core studies in Electronics and
+        Instrumentation.
+      </p>
+      <p>
+        Passionate about technology, I am keen on building projects that enhance
+        my understanding of software development.
+      </p>
+      <p>
+        Beyond academics, I maintain a disciplined fitness routine, including
+        calisthenics, and focus on a healthy lifestyle by avoiding fast food.
+      </p>
+    </div>
+  </body>
+</html>
